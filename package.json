@@ -1,0 +1,55 @@
+{
+  "name": "shell",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "piral": "^0.12.4",
+    "piral-core": "^0.12.4",
+    "piral-search": "^0.12.4"
+  },
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\""
+  },
+  "app": "./src/index.html",
+  "pilets": {
+    "files": [],
+    "externals": [],
+    "scripts": {},
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": ""
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "3.9.1",
+    "@typescript-eslint/parser": "3.9.1",
+    "eslint": "7.11.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-prettier": "6.13.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-cypress": "2.11.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "piral-cli": "latest",
+    "piral-cli-webpack": "^0.12.4",
+    "prettier": "^1.19.1",
+    "typescript": "latest"
+  }
+}
