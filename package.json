@@ -10,7 +10,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "piral": "^0.12.4",
     "piral-core": "^0.12.4",
-    "piral-search": "^0.12.4"
+    "piral-search": "^0.12.4",
+    "react": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "start": "piral debug",

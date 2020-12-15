@@ -9,7 +9,8 @@
     "moduleResolution": "node",
     "module": "esnext",
     "jsx": "react",
-    "importHelpers": true
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "./src"
